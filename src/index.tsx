@@ -24,7 +24,7 @@ root.render(
     <Navbar/>
 
     {/* CONTENT */}
-    <Stack flex="1">
+    <Stack flex="1" overflowY="auto">
       <Home />
     </Stack>
     

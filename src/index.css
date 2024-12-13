@@ -6,7 +6,7 @@ html, body, #root {
   bottom: 0;
   display: flex;
   flex: 1;
-  overflow: auto;
+  overflow: hidden;
   flex-direction: column;
 }
 

@@ -11,9 +11,9 @@ export default function Navbar() {
     <HStack bg="gray.900" p="3" h="56px" justifyContent="space-between">
 
       {logo(desktop)}
-      <IconButton display={mobile} size="sm" icon={<MdMenu />} aria-label={"Menu"}/>
+      <IconButton display={mobile} variant="outline" size="sm" icon={<MdMenu />} aria-label={"Menu"}/>
       {logo(mobile)}
-      
+
       <HStack display={desktop}>
         <Box as="a" href="#Link1">Link 1</Box>
         <Box as="a" href="#Link2">Link 2</Box>
