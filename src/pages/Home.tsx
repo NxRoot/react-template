@@ -1,9 +1,9 @@
+import { Center } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <div>
-      My React App
-    </div>
+    <Center h="full">
+      Home Page
+    </Center>
   )
 }
-

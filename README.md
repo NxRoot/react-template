@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# React Template with Chakra UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Chakra UI](https://www.chakra-ui.com/).
+
+|<img src="https://i.ibb.co/4YkRPWh/Captura-de-ecr-2024-12-13-212344.png">|<img src="https://i.ibb.co/tMfN0ch/Captura-de-ecr-2024-12-13-212259.png">|
+|--|--|
 
 ## Available Scripts
 

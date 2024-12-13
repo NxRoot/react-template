@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
+import { ChakraProvider, ColorModeScript, Stack } from '@chakra-ui/react';
 import theme from './theme';
 import Home from './pages/Home';
+import Navbar from './components/Navbar';
 
 // Get chakra theme color
 const color = theme.config.initialColorMode
@@ -18,7 +19,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ChakraProvider theme={theme}>
     <ColorModeScript initialColorMode={color} />
-    <Home />
+
+    {/* NAVBAR */}
+    <Navbar/>
+
+    {/* CONTENT */}
+    <Stack flex="1">
+      <Home />
+    </Stack>
+    
   </ChakraProvider>
 );
 
