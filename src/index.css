@@ -1,0 +1,23 @@
+html, body, #root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+
+/* Remove Chakra UI Focus*/
+:focus, *[data-focus], :focus-visible {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Remove Chakra UI Focus Input Borders*/
+input:focus, textarea:focus, select:focus, input[data-focus] {
+  z-index: 0 !important;
+  border-color: gray !important;
+  box-shadow: initial !important;
+}
